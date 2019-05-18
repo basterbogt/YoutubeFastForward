@@ -1,0 +1,27 @@
+{
+  "name": "Youtube Speedup",
+  "version": "1.0",
+  "description": "Speed up youtube videos!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/speed.png",
+      "32": "images/speed.png",
+      "48": "images/speed.png",
+      "128": "images/speed.png"
+    }
+  },
+  "icons": {
+    "16": "images/speed.png",
+    "32": "images/speed.png",
+    "48": "images/speed.png",
+    "128": "images/speed.png"
+  },
+  "manifest_version": 2
+}
